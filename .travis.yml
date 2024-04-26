@@ -12,10 +12,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
-  app: "frontend"
-  env: "Frontend-env"
+  app: "react-app"
+  env: "React-app-env"
   bucket_name: "elasticbeanstalk-ap-south-1-533266976984"
-  bucket_path: "frontend"
+  bucket_path: "react-app"
   on:
     branch: master
   access_key_id: $ACCESSKEYID
