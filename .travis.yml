@@ -24,4 +24,3 @@ deploy:
     branch: master
   access_key_id: $ACCESSKEYID
   secret_access_key: "$SECRETACCESSKEY"
-  skip_cleanup: true
