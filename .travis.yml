@@ -16,7 +16,6 @@ deploy:
   provider: elasticbeanstalk
   region: "ap-south-1"
   app: "frontend"
-  edge: true
   environment: "Frontend-env"
   bucket_name: "elasticbeanstalk-ap-south-1-533266976984"
   bucket_path: "frontend"
