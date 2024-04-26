@@ -21,5 +21,5 @@ deploy:
   bucket_path: "frontend"
   on:
     branch: master
-  access_key_id: $ACCESSKEYID
+  access_key_id: "$ACCESSKEYID"
   secret_access_key: "$SECRETACCESSKEY"
